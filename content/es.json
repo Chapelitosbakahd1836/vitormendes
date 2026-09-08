@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Vitor Mendes — Artista aéreo e intérprete escénico",
+    "description": "Straps aéreos y flexibilidad extrema. Teatro físico, creación de personaje y maquillaje artístico. Disponible para temporada, festival y evento.",
+    "ogAlt": "Vitor Mendes suspendido en los straps aéreos en spagat, telón rojo al fondo."
+  },
+  "ui": {
+    "langNav": "Idioma",
+    "langPt": "PT",
+    "langEs": "ES",
+    "langEn": "EN",
+    "langActive": "Idioma activo",
+    "preloaderLabel": "Cargando",
+    "skipIntro": "Saltar",
+    "scrollHint": "desliza",
+    "videoPlay": "Ver con sonido",
+    "videoClose": "Cerrar",
+    "videoMuted": "Vista previa sin sonido",
+    "lightboxLabel": "Reproductor de vídeo",
+    "imagePlaceholder": "foto pronto",
+    "videoPlaceholder": "vídeo pronto",
+    "copyEmail": "Copiar correo",
+    "copied": "Copiado"
+  },
+  "hero": {
+    "eyebrow": "Artista aéreo · Intérprete",
+    "title": "Vitor Mendes",
+    "subtitle": "Straps, teatro físico, personaje.",
+    "scroll": "desliza",
+    "media": {
+      "alt": "Vitor Mendes suspendido de los straps aéreos en spagat abierto, brazos extendidos, telón rojo al fondo.",
+      "posterAlt": "Fotograma de apertura: cuerpo en spagat suspendido en el aire, escenario oscuro."
+    }
+  },
+  "manifesto": {
+    "eyebrow": "Manifiesto",
+    "title": "La altura no es truco",
+    "body": "Subo porque allá arriba la mentira no aguanta. El strap marca la piel, el hombro se traba, el spagat se abre en el aire sin red debajo. Cada figura es una decisión tomada en dos segundos, delante de todos.",
+    "media": {
+      "alt": "Vitor Mendes en los straps aéreos, cuerpo horizontal a media altura, brazos bloqueados sobre la cabeza."
+    }
+  },
+  "aereo": {
+    "eyebrow": "01 — Straps",
+    "title": "Un aparato, todo el cuerpo",
+    "body": "Straps aéreos. Fuerza trabada en el hombro para subir, spagat abierto allá arriba, el suelo como continuación del número. Trabajo a una altura de hasta 8 m, con rig propio o en la estructura de la sala.",
+    "items": {
+      "01": {
+        "caption": "Straps — plancha horizontal",
+        "alt": "Vitor Mendes en los straps aéreos, cuerpo horizontal a media altura, brazos bloqueados sobre la cabeza."
+      },
+      "02": {
+        "caption": "Straps — spagat suspendido",
+        "alt": "Vitor Mendes suspendido de los straps en spagat abierto, brazos extendidos, telón rojo al fondo."
+      },
+      "03": {
+        "caption": "Straps — penché en apoyo",
+        "alt": "Vitor Mendes de pie en el escenario, una pierna en vertical junto al strap, torso alineado."
+      },
+      "04": {
+        "caption": "Suelo — spagat en apoyo de hombros",
+        "alt": "Spagat horizontal en apoyo de hombros sobre la pista, piernas totalmente abiertas."
+      }
+    }
+  },
+  "cena": {
+    "eyebrow": "02 — Personaje",
+    "title": "Primero el personaje",
+    "body": "No subo sin saber quién sube. La serpiente existió antes que cualquier figura: la forma de reptar, el peso en la mano abierta, la cara. El aparato es consecuencia del personaje, nunca al revés.",
+    "items": {
+      "01": {
+        "caption": "Serpiente — cuclillas con la red",
+        "alt": "Vitor Mendes como serpiente, maillot amarillo y negro de piel de serpiente, corona de escamas, en cuclillas sobre una red de cuerda blanca con el brazo extendido."
+      },
+      "02": {
+        "caption": "Serpiente — retrato con capucha",
+        "alt": "Retrato de perfil de la serpiente: capucha verde menta de escamas, cejas verdes, rostro blanco y boca verde oscura."
+      },
+      "03": {
+        "caption": "Serpiente — vestuario verde, entre cajas",
+        "alt": "Serpiente con vestuario verde de cuerpo entero, brazos abiertos y cabeza erguida, ante un telón azul petróleo."
+      },
+      "04": {
+        "caption": "Serpiente — apertura en la pista",
+        "alt": "Serpiente en cuclillas de frente en la pista, piernas abiertas y manos en el suelo, luz verde al fondo."
+      },
+      "05": {
+        "caption": "Serpiente — extensión hacia atrás",
+        "alt": "Serpiente en extensión hacia atrás, cabeza invertida entre los brazos, manos abiertas hacia el público."
+      }
+    }
+  },
+  "maquiagem": {
+    "eyebrow": "03 — Maquillaje",
+    "title": "La cara va primero",
+    "body": "Dibujo la serpiente en el espejo, a mano, capa por capa. Base blanca, escama pintada en la sien, boca verde. Una hora de camerino decide lo que el cuerpo podrá hacer en el aire.",
+    "hoverHint": "pasa el cursor",
+    "items": {
+      "01": {
+        "caption": "Escama en la sien — camerino",
+        "alt": "Primer plano del rostro de Vitor Mendes en el camerino: base blanca, escamas verdes pintadas en la sien, ceja verde y boca verde con glitter."
+      },
+      "02": {
+        "caption": "Ceja y boca — camerino",
+        "alt": "Rostro frontal con el maquillaje de serpiente terminado: máscara blanca, cejas verdes dibujadas, labios verde lima y escamas en el lateral de la cabeza."
+      },
+      "03": {
+        "caption": "Rostro listo — antes de entrar",
+        "alt": "Maquillaje finalizado con luz natural: escamas amarillo oro bajando por el lateral del rostro, ojos delineados en negro, boca verde en degradado."
+      }
+    }
+  },
+  "video": {
+    "eyebrow": "04 — Vídeo",
+    "title": "En movimiento",
+    "body": "Showreel de 2 min y cortes cortos. Sin música épica, sin corte cada medio segundo: el número entero, como pasa en el escenario.",
+    "cta": "Ver showreel",
+    "reelCaption": "Showreel",
+    "reel": {
+      "alt": "Fotograma del showreel: Vitor Mendes en lo alto de los straps, escenario oscuro."
+    },
+    "items": {
+      "01": { "caption": "Straps — número completo", "alt": "Fotograma del número de straps aéreos." },
+      "02": { "caption": "Straps — en festival", "alt": "Fotograma del número de straps en festival." },
+      "03": { "caption": "Solo de flexibilidad", "alt": "Fotograma del solo de flexibilidad en el suelo." },
+      "04": { "caption": "Escena — personaje", "alt": "Fotograma de escena teatral con personaje." }
+    }
+  },
+  "ficha": {
+    "eyebrow": "05 — Ficha técnica",
+    "title": "Datos de trabajo",
+    "body": "Ficha resumida para producción y curaduría. Dossier completo y rider técnico a pedido.",
+    "stats": {
+      "01": { "value": 12, "label": "años en escena" },
+      "02": { "value": 9, "label": "países" },
+      "03": { "value": 8, "label": "metros de altura" },
+      "04": { "value": 400, "label": "funciones" }
+    },
+    "rows": {
+      "aparelhos": { "label": "Aparato", "value": "Straps aéreos" },
+      "linguagens": { "label": "Lenguajes", "value": "Circo contemporáneo · teatro físico · flexibilidad y contorsión · creación de personaje · maquillaje artístico" },
+      "base": { "label": "Base", "value": "[ciudad, país] — disponible para viajar" },
+      "formacao": { "label": "Formación", "value": "[escuela, año] · [formación complementaria]" },
+      "festivais": { "label": "Festivales", "value": "[festival 1] · [festival 2] · [festival 3]" },
+      "idiomas": { "label": "Idiomas", "value": "Portugués · español · inglés" },
+      "formatos": { "label": "Formatos", "value": "Número solo (6–8 min) · intervención · temporada · creación a medida" },
+      "tecnica": { "label": "Técnica", "value": "Punto de rigging mínimo [X kN] · altura libre mínima [X m] · rider a pedido" }
+    },
+    "media": {
+      "alt": "Retrato de Vitor Mendes en escena, maquillaje de escenario y vestuario rojo con pedrería, telón rojo al fondo."
+    }
+  },
+  "contato": {
+    "eyebrow": "06 — Booking",
+    "title": "Vitor Mendes",
+    "body": "Temporada, festival, evento corporativo y creación a medida. Escribe con fecha, ciudad y altura libre del espacio — respondo en 48h.",
+    "cta": "Escribir ahora",
+    "links": {
+      "email": { "label": "Correo", "value": "[correo]" },
+      "whatsapp": { "label": "WhatsApp", "value": "[teléfono]" },
+      "instagram": { "label": "Instagram", "value": "[@usuario]" },
+      "vimeo": { "label": "Vídeos", "value": "[Vimeo/YouTube]" }
+    },
+    "download": "Descargar dossier (PDF)"
+  },
+  "footer": {
+    "year": "© 2026 Vitor Mendes",
+    "photoCredit": "Fotos: [créditos]",
+    "siteCredit": "Sitio: [crédito]"
+  }
+}

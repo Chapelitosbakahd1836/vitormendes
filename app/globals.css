@@ -1,0 +1,108 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #0b0b0c;
+  --color-paper: #f2efe9;
+  --color-accent: #d9482b;
+  --color-muted: #6f6b64;
+  --color-hairline: #2a2a2c;
+
+  --font-display: var(--font-bodoni), 'Times New Roman', serif;
+  --font-body: var(--font-archivo), system-ui, sans-serif;
+
+  /* Escala tipográfica fluida */
+  --text-eyebrow: clamp(0.68rem, 0.62rem + 0.3vw, 0.8rem);
+  --text-body: clamp(1rem, 0.94rem + 0.3vw, 1.18rem);
+  --text-lead: clamp(1.35rem, 1.05rem + 1.5vw, 2.4rem);
+  --text-section: clamp(2.2rem, 1.3rem + 4.2vw, 5.5rem);
+  --text-display: clamp(2.9rem, 0.4rem + 11.5vw, 15rem);
+}
+
+:root {
+  color-scheme: dark;
+}
+
+/*
+ * Sem `scroll-behavior: smooth` em lugar nenhum: conflita com o Lenis.
+ * O Lenis traz o próprio CSS (`lenis/dist/lenis.css`), importado no provider.
+ */
+html {
+  background-color: var(--color-ink);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-paper);
+}
+
+/* Foco visível em tudo que é navegável por teclado */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* Grain: overlay global, opacidade baixa, sem capturar clique */
+.grain::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Vinheta leve nas fotos, para unificar material de origens diferentes */
+.vignette::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, transparent 52%, rgb(11 11 12 / 0.42) 100%);
+}
+
+/*
+ * Revelação de imagem: clip-path fechado -> aberto.
+ * Estado inicial só quando a animação vai rodar de fato — a branch de
+ * reduced-motion do gsap.matchMedia não toca nisso, e o `@media` abaixo
+ * garante que nada fique invisível se o JS não carregar.
+ */
+.reveal-clip {
+  clip-path: inset(100% 0 0 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-clip {
+    clip-path: inset(0 0 0 0) !important;
+  }
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: var(--text-eyebrow);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.display {
+  font-family: var(--font-display);
+  line-height: 0.86;
+  letter-spacing: -0.02em;
+}
+
+/* SplitText: cada caractere precisa de um contêiner que corte o overflow */
+.split-line {
+  overflow: hidden;
+  display: block;
+}

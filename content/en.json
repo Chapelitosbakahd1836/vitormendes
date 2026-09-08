@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Vitor Mendes — Aerial straps artist and performer",
+    "description": "Aerial straps and extreme flexibility. Physical theatre, character creation and artistic make-up. Available for seasons, festivals and events.",
+    "ogAlt": "Vitor Mendes hanging from aerial straps in a full split, red theatre curtain behind him."
+  },
+  "ui": {
+    "langNav": "Language",
+    "langPt": "PT",
+    "langEs": "ES",
+    "langEn": "EN",
+    "langActive": "Active language",
+    "preloaderLabel": "Loading",
+    "skipIntro": "Skip",
+    "scrollHint": "scroll",
+    "videoPlay": "Watch with sound",
+    "videoClose": "Close",
+    "videoMuted": "Muted preview",
+    "lightboxLabel": "Video player",
+    "imagePlaceholder": "photo coming",
+    "videoPlaceholder": "video coming",
+    "copyEmail": "Copy email",
+    "copied": "Copied"
+  },
+  "hero": {
+    "eyebrow": "Aerialist · Performer",
+    "title": "Vitor Mendes",
+    "subtitle": "Straps, physical theatre, character.",
+    "scroll": "scroll",
+    "media": {
+      "alt": "Vitor Mendes hanging from aerial straps in a wide open split, arms extended, red theatre curtain behind him.",
+      "posterAlt": "Opening frame: a body held in a split in mid-air, dark stage."
+    }
+  },
+  "manifesto": {
+    "eyebrow": "Manifesto",
+    "title": "Height is not a trick",
+    "body": "I go up because nothing false holds up there. The strap marks the skin, the shoulder locks, the split opens in mid-air with no net under it. Every shape is a decision made in two seconds, in front of everyone.",
+    "media": {
+      "alt": "Vitor Mendes on aerial straps, body horizontal at mid height, arms locked overhead."
+    }
+  },
+  "aereo": {
+    "eyebrow": "01 — Straps",
+    "title": "One apparatus, whole body",
+    "body": "Aerial straps. Locked shoulder strength on the climb, a full split at the top, the floor as the rest of the act. I work at heights up to 8 m, on my own rig or the venue rig.",
+    "items": {
+      "01": {
+        "caption": "Straps — horizontal planche",
+        "alt": "Vitor Mendes on aerial straps, body horizontal at mid height, arms locked overhead."
+      },
+      "02": {
+        "caption": "Straps — suspended split",
+        "alt": "Vitor Mendes hanging from the straps in a wide open split, arms extended, red curtain behind."
+      },
+      "03": {
+        "caption": "Straps — supported penché",
+        "alt": "Vitor Mendes standing on stage, one leg vertical beside the strap, torso aligned."
+      },
+      "04": {
+        "caption": "Floor — shoulder-stand split",
+        "alt": "Horizontal split on the shoulders on the ring floor, legs fully open."
+      }
+    }
+  },
+  "cena": {
+    "eyebrow": "02 — Character",
+    "title": "Character before trick",
+    "body": "I do not go up without knowing who is going up. The serpent existed before any shape did: the way it crawls, the weight on an open hand, the face. The apparatus follows the character — never the other way round.",
+    "items": {
+      "01": {
+        "caption": "Serpent — crouch with the net",
+        "alt": "Vitor Mendes as a serpent in a yellow and black snakeskin suit and scaled crown, crouched on a white rope net with one arm extended."
+      },
+      "02": {
+        "caption": "Serpent — hooded portrait",
+        "alt": "Profile portrait of the serpent: mint-green scaled hood, green brows, white face and dark green mouth."
+      },
+      "03": {
+        "caption": "Serpent — green costume, in the wings",
+        "alt": "The serpent in a full green costume, arms open and head lifted, against a deep teal curtain."
+      },
+      "04": {
+        "caption": "Serpent — open stance in the ring",
+        "alt": "The serpent crouched face-on in the ring, legs wide and hands on the floor, green light behind."
+      },
+      "05": {
+        "caption": "Serpent — backbend",
+        "alt": "The serpent in a deep backbend, head upside down between the arms, hands open toward the audience."
+      }
+    }
+  },
+  "maquiagem": {
+    "eyebrow": "03 — Make-up",
+    "title": "The face comes first",
+    "body": "I draw the serpent in the mirror, by hand, layer by layer. White base, scales painted at the temple, green mouth. One hour in the dressing room decides what the body can do in the air.",
+    "hoverHint": "hover",
+    "items": {
+      "01": {
+        "caption": "Scales at the temple — dressing room",
+        "alt": "Close-up of Vitor Mendes in the dressing room: white base, green scales painted at the temple, green brow and glittered green mouth."
+      },
+      "02": {
+        "caption": "Brow and mouth — dressing room",
+        "alt": "Face-on shot of the finished serpent make-up: white mask, drawn green brows, lime-green lips and scales along the side of the head."
+      },
+      "03": {
+        "caption": "Face finished — before going on",
+        "alt": "Finished make-up in daylight: gold-yellow scales running down the side of the face, eyes lined in black, green ombré mouth."
+      }
+    }
+  },
+  "video": {
+    "eyebrow": "04 — Video",
+    "title": "In motion",
+    "body": "A 2 min showreel plus short cuts. No epic score, no cut every half second: the full act, the way it happens on stage.",
+    "cta": "Watch showreel",
+    "reelCaption": "Showreel",
+    "reel": {
+      "alt": "Showreel frame: Vitor Mendes at the top of the straps, dark stage."
+    },
+    "items": {
+      "01": { "caption": "Straps — full act", "alt": "Frame from the aerial straps act." },
+      "02": { "caption": "Straps — at a festival", "alt": "Frame from the straps act at a festival." },
+      "03": { "caption": "Flexibility solo", "alt": "Frame from the floor flexibility solo." },
+      "04": { "caption": "Stage — in character", "alt": "Frame from a theatre scene in character." }
+    }
+  },
+  "ficha": {
+    "eyebrow": "05 — Technical sheet",
+    "title": "Working details",
+    "body": "Short sheet for producers and programmers. Full press kit and technical rider on request.",
+    "stats": {
+      "01": { "value": 12, "label": "years on stage" },
+      "02": { "value": 9, "label": "countries" },
+      "03": { "value": 8, "label": "metres of height" },
+      "04": { "value": 400, "label": "performances" }
+    },
+    "rows": {
+      "aparelhos": { "label": "Apparatus", "value": "Aerial straps" },
+      "linguagens": { "label": "Disciplines", "value": "Contemporary circus · physical theatre · flexibility and contortion · character creation · artistic make-up" },
+      "base": { "label": "Based in", "value": "[city, country] — available to travel" },
+      "formacao": { "label": "Training", "value": "[school, year] · [further training]" },
+      "festivais": { "label": "Festivals", "value": "[festival 1] · [festival 2] · [festival 3]" },
+      "idiomas": { "label": "Languages", "value": "Portuguese · Spanish · English" },
+      "formatos": { "label": "Formats", "value": "Solo act (6–8 min) · intervention · full season · commissioned creation" },
+      "tecnica": { "label": "Technical", "value": "Minimum rigging point [X kN] · minimum clear height [X m] · rider on request" }
+    },
+    "media": {
+      "alt": "Portrait of Vitor Mendes in performance, stage make-up and red rhinestone costume, red theatre curtain behind him."
+    }
+  },
+  "contato": {
+    "eyebrow": "06 — Booking",
+    "title": "Vitor Mendes",
+    "body": "Seasons, festivals, corporate events and commissioned work. Write with date, city and the clear height of the space — I answer within 48h.",
+    "cta": "Get in touch",
+    "links": {
+      "email": { "label": "Email", "value": "[email]" },
+      "whatsapp": { "label": "WhatsApp", "value": "[phone]" },
+      "instagram": { "label": "Instagram", "value": "[@handle]" },
+      "vimeo": { "label": "Videos", "value": "[Vimeo/YouTube]" }
+    },
+    "download": "Download press kit (PDF)"
+  },
+  "footer": {
+    "year": "© 2026 Vitor Mendes",
+    "photoCredit": "Photos: [credits]",
+    "siteCredit": "Site: [credit]"
+  }
+}
