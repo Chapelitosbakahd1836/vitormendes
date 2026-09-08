@@ -52,17 +52,12 @@ export const manifestoMedia: MediaItem = {
   type: 'image',
 }
 
-/** 03 — Faixas aéreas: scroll horizontal com pin. */
+/**
+ * 03 — Faixas aéreas: scroll horizontal com pin.
+ * Sem `aereo-01`: essa foto já é a do manifesto, e repetir a mesma imagem
+ * na mesma página empobrece as duas.
+ */
 export const aereoMedia: MediaItem[] = [
-  {
-    slot: 'aereo-01',
-    src: '/media/aereo/aereo-01.jpg',
-    altKey: 'aereo.items.01.alt',
-    width: 1535,
-    height: 1025,
-    orientation: 'landscape',
-    type: 'image',
-  },
   {
     slot: 'aereo-02',
     src: '/media/aereo/aereo-02.jpg',

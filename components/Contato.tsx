@@ -66,30 +66,23 @@ export default function Contato() {
         {t('contato.title')}
       </h2>
 
-      <a
-        data-lang-text
-        href={CONTACT_LINKS.whatsapp}
-        target="_blank"
-        rel="noreferrer"
-        className="eyebrow mb-14 inline-block border-b border-[color:var(--color-accent)] pb-1 text-[color:var(--color-paper)] transition-colors hover:text-[color:var(--color-accent)]"
-      >
-        {t('contato.cta')}
-      </a>
-
-      <ul className="mb-16 grid grid-cols-1 gap-px sm:grid-cols-3">
+      {/* Contatos como botões: o WhatsApp é a ação principal, os outros dois
+          repetem a forma em contorno. */}
+      <ul className="mb-16 flex flex-wrap gap-4">
         {links.map(([kind, link]) => (
-          <li key={kind} className="border-t border-[color:var(--color-hairline)] py-5">
-            <p data-lang-text className="eyebrow mb-2">
-              {link.label}
-            </p>
+          <li key={kind}>
             <a
               data-lang-text
               href={CONTACT_LINKS[kind]}
               target={kind === 'email' ? undefined : '_blank'}
               rel={kind === 'email' ? undefined : 'noreferrer'}
-              className="text-[color:var(--color-paper)] underline-offset-4 transition-colors hover:text-[color:var(--color-accent)] hover:underline"
+              className={
+                kind === 'whatsapp'
+                  ? 'btn btn-solid'
+                  : 'btn btn-outline'
+              }
             >
-              {link.value}
+              {link.label}
             </a>
           </li>
         ))}

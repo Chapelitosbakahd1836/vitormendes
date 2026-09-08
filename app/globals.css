@@ -30,6 +30,9 @@
 html {
   background-color: var(--color-ink);
   -webkit-text-size-adjust: 100%;
+  /* `clip` e não `hidden`: corta o transbordo lateral sem criar um
+     contêiner de rolagem, o que quebraria o sticky e o pin do ScrollTrigger. */
+  overflow-x: clip;
 }
 
 body {
@@ -40,7 +43,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--text-body);
   line-height: 1.5;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 ::selection {
@@ -244,4 +247,51 @@ body {
 /* Com o fundo novo, os halos entram só como reforço */
 .halo::before {
   --halo-opacity: 0.35;
+}
+
+/*
+ * Botões de contato. A forma é a mesma nos dois estilos — só o preenchimento
+ * muda — para o WhatsApp se destacar sem parecer outro componente.
+ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  padding: 0 1.6rem;
+  border: 1px solid var(--color-accent);
+  border-radius: 999px;
+  font-family: var(--font-body);
+  font-size: var(--text-eyebrow);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition:
+    background-color 240ms ease,
+    color 240ms ease,
+    border-color 240ms ease;
+}
+
+.btn-solid {
+  background-color: var(--color-accent);
+  color: var(--color-ink);
+}
+
+.btn-solid:hover,
+.btn-solid:focus-visible {
+  background-color: var(--color-gold-soft);
+  border-color: var(--color-gold-soft);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--color-paper);
+  border-color: rgb(212 175 55 / 0.5);
+}
+
+.btn-outline:hover,
+.btn-outline:focus-visible {
+  background-color: rgb(212 175 55 / 0.14);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
