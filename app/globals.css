@@ -33,7 +33,9 @@ html {
 }
 
 body {
-  background-color: var(--color-ink);
+  /* Sem cor aqui: o fundo preto vem do <html> e a camada .bg-luxo fica
+     entre os dois. Um background no body cobriria a textura. */
+  background-color: transparent;
   color: var(--color-paper);
   font-family: var(--font-body);
   font-size: var(--text-body);
@@ -171,6 +173,13 @@ body {
 
 /* Título em degradê branco -> dourado. Só em texto que não passa pelo SplitText. */
 .display-gold {
+  /*
+   * O degradê é pintado na caixa do elemento: qualquer glifo que transborde
+   * fica sem fundo e some. O `min-content` garante que a caixa nunca seja
+   * mais estreita que a palavra mais longa, mesmo com um max-width apertado.
+   */
+  min-width: min-content;
+  padding-right: 0.06em;
   background: linear-gradient(
     100deg,
     var(--color-paper) 0%,
@@ -181,4 +190,58 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+/*
+ * Fundo de luxo: duas texturas pretas e douradas fixas, do topo ao rodapé.
+ * Ficam atrás de tudo (`z-index: -3`) e não capturam clique. O véu escuro por
+ * cima garante contraste do texto branco em qualquer ponto do scroll.
+ */
+.bg-luxo {
+  position: fixed;
+  inset: 0;
+  z-index: -3;
+  pointer-events: none;
+  background-color: var(--color-ink);
+}
+
+.bg-luxo > span {
+  position: absolute;
+  inset: 0;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Fios dourados: entram pela esquerda, presentes na página inteira */
+.bg-luxo-top {
+  background-image: url('/media/bg/luxo-01.webp');
+  background-position: center;
+  opacity: 0.5;
+}
+
+/* Brilho quente no canto inferior direito, espelhado para não repetir o de cima */
+.bg-luxo-bottom {
+  background-image: url('/media/bg/luxo-02.webp');
+  background-position: right bottom;
+  opacity: 0.42;
+  scale: -1 1;
+}
+
+/* Véu: escurece o centro, onde mora o texto */
+.bg-luxo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgb(11 11 12 / 0.72) 0%,
+    rgb(11 11 12 / 0.52) 55%,
+    rgb(11 11 12 / 0.3) 100%
+  );
+}
+
+/* Com o fundo novo, os halos entram só como reforço */
+.halo::before {
+  --halo-opacity: 0.35;
 }

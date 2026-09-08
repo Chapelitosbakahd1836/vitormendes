@@ -59,6 +59,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR" className={`${bodoni.variable} ${archivo.variable}`}>
       <body className="grain">
+        {/* Fundo de luxo: duas camadas fixas atrás de todo o conteúdo. */}
+        <div className="bg-luxo" aria-hidden="true">
+          <span className="bg-luxo-top" />
+          <span className="bg-luxo-bottom" />
+        </div>
         <Providers>{children}</Providers>
       </body>
     </html>
