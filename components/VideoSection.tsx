@@ -165,15 +165,12 @@ export default function VideoSection() {
           <h2
             id="video-title"
             data-lang-text
-            className="display"
+            className="display display-gold"
             style={{ fontSize: 'var(--text-section)' }}
           >
             {t('video.title')}
           </h2>
         </div>
-        <p data-lang-text className="max-w-[40ch] text-[color:var(--color-paper)]/70">
-          {t('video.body')}
-        </p>
       </header>
 
       {/* Showreel principal, largura quase total */}

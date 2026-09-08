@@ -41,7 +41,6 @@
   },
   "aereo": {
     "eyebrow": "01 — Straps",
-    "title": "One apparatus, whole body",
     "items": {
       "01": {
         "alt": "Vitor Mendes on aerial straps, body horizontal at mid height, arms locked overhead."
@@ -96,7 +95,6 @@
   "video": {
     "eyebrow": "04 — Video",
     "title": "In motion",
-    "body": "A 2 min showreel plus short cuts. No epic score, no cut every half second: the full act, the way it happens on stage.",
     "cta": "Watch showreel",
     "reelCaption": "Showreel",
     "reel": {

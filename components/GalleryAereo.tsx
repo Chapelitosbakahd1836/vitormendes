@@ -84,17 +84,9 @@ export default function GalleryAereo() {
       aria-labelledby="aereo-title"
     >
       <header className="px-[max(1.25rem,4vw)] lg:absolute lg:top-[max(1.25rem,4vw)] lg:left-[max(1.25rem,4vw)] lg:z-10">
-        <p data-lang-text className="eyebrow mb-3">
+        <p id="aereo-title" data-lang-text className="eyebrow">
           {t('aereo.eyebrow')}
         </p>
-        <h2
-          id="aereo-title"
-          data-lang-text
-          className="display max-w-[12ch]"
-          style={{ fontSize: 'var(--text-section)' }}
-        >
-          {t('aereo.title')}
-        </h2>
       </header>
 
       <div

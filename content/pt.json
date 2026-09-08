@@ -41,7 +41,6 @@
   },
   "aereo": {
     "eyebrow": "01 — Faixas",
-    "title": "Um aparelho, o corpo inteiro",
     "items": {
       "01": {
         "alt": "Vitor Mendes nas faixas aéreas, corpo na horizontal a meia altura, braços travados acima da cabeça."
@@ -96,7 +95,6 @@
   "video": {
     "eyebrow": "04 — Vídeo",
     "title": "Em movimento",
-    "body": "Showreel de 2 min e cortes curtos. Sem trilha épica, sem corte a cada meio segundo: o número inteiro, como acontece no palco.",
     "cta": "Assistir showreel",
     "reelCaption": "Showreel",
     "reel": {

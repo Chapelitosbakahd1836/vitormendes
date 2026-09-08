@@ -41,7 +41,6 @@
   },
   "aereo": {
     "eyebrow": "01 — Straps",
-    "title": "Un aparato, todo el cuerpo",
     "items": {
       "01": {
         "alt": "Vitor Mendes en los straps aéreos, cuerpo horizontal a media altura, brazos bloqueados sobre la cabeza."
@@ -96,7 +95,6 @@
   "video": {
     "eyebrow": "04 — Vídeo",
     "title": "En movimiento",
-    "body": "Showreel de 2 min y cortes cortos. Sin música épica, sin corte cada medio segundo: el número entero, como pasa en el escenario.",
     "cta": "Ver showreel",
     "reelCaption": "Showreel",
     "reel": {
