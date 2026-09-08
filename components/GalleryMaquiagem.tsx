@@ -38,7 +38,8 @@ export default function GalleryMaquiagem() {
   return (
     <section
       ref={root}
-      className="px-[max(1.25rem,4vw)] py-[clamp(5rem,14vh,11rem)]"
+      className="halo px-[max(1.25rem,4vw)] py-[clamp(5rem,14vh,11rem)]"
+      style={{ ['--halo-x' as string]: '50%', ['--halo-y' as string]: '18%', ['--halo-size' as string]: '55vw' }}
       aria-labelledby="maquiagem-title"
     >
       <header className="mb-12 flex flex-wrap items-end justify-between gap-6">
@@ -49,15 +50,12 @@ export default function GalleryMaquiagem() {
           <h2
             id="maquiagem-title"
             data-lang-text
-            className="display max-w-[12ch]"
+            className="display display-gold max-w-[14ch]"
             style={{ fontSize: 'var(--text-section)' }}
           >
             {t('maquiagem.title')}
           </h2>
         </div>
-        <p data-lang-text className="max-w-[40ch] text-[color:var(--color-paper)]/70">
-          {t('maquiagem.body')}
-        </p>
       </header>
 
       {/*
@@ -81,21 +79,9 @@ export default function GalleryMaquiagem() {
               />
             </div>
 
-            {item.captionKey && (
-              <figcaption
-                data-lang-text
-                className="eyebrow absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#0b0b0c] to-transparent p-4 text-[color:var(--color-paper)] opacity-100 transition-opacity duration-300 md:opacity-0 md:group-hover:opacity-100 md:group-focus-within:opacity-100"
-              >
-                {t(item.captionKey)}
-              </figcaption>
-            )}
           </figure>
         ))}
       </div>
-
-      <p data-lang-text className="eyebrow mt-4 hidden md:block">
-        {t('maquiagem.hoverHint')}
-      </p>
     </section>
   )
 }

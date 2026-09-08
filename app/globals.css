@@ -2,10 +2,11 @@
 
 @theme {
   --color-ink: #0b0b0c;
-  --color-paper: #f2efe9;
-  --color-accent: #d9482b;
-  --color-muted: #6f6b64;
-  --color-hairline: #2a2a2c;
+  --color-gold-soft: #f0dfa8;
+  --color-paper: #ffffff;
+  --color-accent: #d4af37;
+  --color-muted: #c8a95e;
+  --color-hairline: #332d1e;
 
   --font-display: var(--font-bodoni), 'Times New Roman', serif;
   --font-body: var(--font-archivo), system-ui, sans-serif;
@@ -105,4 +106,79 @@ body {
 .split-line {
   overflow: hidden;
   display: block;
+}
+
+/*
+ * Halo de fundo: brilho dourado difuso atrás de uma seção.
+ * Posição e tamanho vêm de custom properties, então a mesma classe serve
+ * para cantos diferentes sem multiplicar regras.
+ */
+.halo {
+  position: relative;
+  isolation: isolate;
+}
+
+.halo::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  top: var(--halo-y, 10%);
+  left: var(--halo-x, 50%);
+  width: var(--halo-size, 60vw);
+  aspect-ratio: 1;
+  translate: -50% -50%;
+  border-radius: 50%;
+  opacity: var(--halo-opacity, 0.5);
+  background: radial-gradient(
+    circle,
+    rgb(212 175 55 / 0.22) 0%,
+    rgb(212 175 55 / 0.08) 38%,
+    transparent 70%
+  );
+  filter: blur(60px);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .halo::before {
+    animation: halo-drift 18s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes halo-drift {
+  from {
+    translate: -50% -50%;
+    scale: 1;
+  }
+  to {
+    translate: -46% -54%;
+    scale: 1.12;
+  }
+}
+
+/* Filete dourado: separador que desbota nas pontas */
+.rule-gold {
+  height: 1px;
+  border: 0;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgb(212 175 55 / 0.55) 22%,
+    rgb(212 175 55 / 0.55) 78%,
+    transparent
+  );
+}
+
+/* Título em degradê branco -> dourado. Só em texto que não passa pelo SplitText. */
+.display-gold {
+  background: linear-gradient(
+    100deg,
+    var(--color-paper) 0%,
+    var(--color-paper) 42%,
+    var(--color-gold-soft) 72%,
+    var(--color-accent) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }

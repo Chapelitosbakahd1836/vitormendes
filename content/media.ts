@@ -58,7 +58,6 @@ export const aereoMedia: MediaItem[] = [
     slot: 'aereo-01',
     src: '/media/aereo/aereo-01.jpg',
     altKey: 'aereo.items.01.alt',
-    captionKey: 'aereo.items.01.caption',
     width: 1535,
     height: 1025,
     orientation: 'landscape',
@@ -68,7 +67,6 @@ export const aereoMedia: MediaItem[] = [
     slot: 'aereo-02',
     src: '/media/aereo/aereo-02.jpg',
     altKey: 'aereo.items.02.alt',
-    captionKey: 'aereo.items.02.caption',
     width: 1535,
     height: 1025,
     orientation: 'landscape',
@@ -78,7 +76,6 @@ export const aereoMedia: MediaItem[] = [
     slot: 'aereo-03',
     src: '/media/aereo/aereo-03.jpg',
     altKey: 'aereo.items.03.alt',
-    captionKey: 'aereo.items.03.caption',
     width: 1535,
     height: 1025,
     orientation: 'landscape',
@@ -88,7 +85,6 @@ export const aereoMedia: MediaItem[] = [
     slot: 'aereo-04',
     src: '/media/aereo/aereo-04.jpg',
     altKey: 'aereo.items.04.alt',
-    captionKey: 'aereo.items.04.caption',
     width: 1535,
     height: 1025,
     orientation: 'landscape',
@@ -102,7 +98,6 @@ export const cenaMedia: MediaItem[] = [
     slot: 'cena-01',
     src: '/media/cena/cena-01.jpg',
     altKey: 'cena.items.01.alt',
-    captionKey: 'cena.items.01.caption',
     width: 1066,
     height: 1600,
     orientation: 'portrait',
@@ -112,7 +107,6 @@ export const cenaMedia: MediaItem[] = [
     slot: 'cena-02',
     src: '/media/cena/cena-02.jpg',
     altKey: 'cena.items.02.alt',
-    captionKey: 'cena.items.02.caption',
     width: 1600,
     height: 1160,
     orientation: 'landscape',
@@ -122,7 +116,6 @@ export const cenaMedia: MediaItem[] = [
     slot: 'cena-03',
     src: '/media/cena/cena-03.jpg',
     altKey: 'cena.items.03.alt',
-    captionKey: 'cena.items.03.caption',
     width: 1080,
     height: 1600,
     orientation: 'portrait',
@@ -132,7 +125,6 @@ export const cenaMedia: MediaItem[] = [
     slot: 'cena-04',
     src: '/media/cena/cena-04.jpg',
     altKey: 'cena.items.04.alt',
-    captionKey: 'cena.items.04.caption',
     width: 979,
     height: 1469,
     orientation: 'portrait',
@@ -142,7 +134,6 @@ export const cenaMedia: MediaItem[] = [
     slot: 'cena-05',
     src: '/media/cena/cena-05.jpg',
     altKey: 'cena.items.05.alt',
-    captionKey: 'cena.items.05.caption',
     width: 915,
     height: 1373,
     orientation: 'portrait',
@@ -156,7 +147,6 @@ export const maquiagemMedia: MediaItem[] = [
     slot: 'maquiagem-01',
     src: '/media/maquiagem/maquiagem-01.jpg',
     altKey: 'maquiagem.items.01.alt',
-    captionKey: 'maquiagem.items.01.caption',
     width: 1200,
     height: 1600,
     orientation: 'portrait',
@@ -166,7 +156,6 @@ export const maquiagemMedia: MediaItem[] = [
     slot: 'maquiagem-02',
     src: '/media/maquiagem/maquiagem-02.jpg',
     altKey: 'maquiagem.items.02.alt',
-    captionKey: 'maquiagem.items.02.caption',
     width: 1200,
     height: 1600,
     orientation: 'portrait',
@@ -176,7 +165,6 @@ export const maquiagemMedia: MediaItem[] = [
     slot: 'maquiagem-03',
     src: '/media/maquiagem/maquiagem-03.jpg',
     altKey: 'maquiagem.items.03.alt',
-    captionKey: 'maquiagem.items.03.caption',
     width: 1200,
     height: 1600,
     orientation: 'portrait',
@@ -250,25 +238,13 @@ export const videoMedia: MediaItem[] = [
   },
 ]
 
-/**
- * 07 — Ficha técnica: retrato.
- * O arquivo ainda não está no projeto. Salve em
- * `public/media/perfil/perfil-01.jpg` e troque `src` para
- * `'/media/perfil/perfil-01.jpg'` com a largura e a altura reais.
- */
+/** 07 — Ficha técnica: retrato de perfil. */
 export const fichaMedia: MediaItem = {
   slot: 'perfil-01',
-  src: null,
+  src: '/media/perfil/perfil-01.jpg',
   altKey: 'ficha.media.alt',
-  width: 1500,
-  height: 1000,
+  width: 1000,
+  height: 667,
   orientation: 'landscape',
   type: 'image',
 }
-
-/**
- * Release em PDF. Coloque o arquivo em `public/media/release.pdf` e troque
- * para `true` — o botão de download vira link ativo na seção de contato.
- */
-export const HAS_RELEASE_PDF = false
-export const RELEASE_PDF_PATH = '/media/release.pdf'

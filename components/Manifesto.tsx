@@ -46,12 +46,12 @@ export default function Manifesto() {
           },
         })
 
-        gsap.from('[data-manifesto-body]', {
+        gsap.from('[data-manifesto-title]', {
           opacity: 0,
           y: 28,
           duration: 0.9,
           ease: 'power2.out',
-          scrollTrigger: { trigger: '[data-manifesto-body]', start: 'top 80%' },
+          scrollTrigger: { trigger: '[data-manifesto-title]', start: 'top 80%' },
         })
       })
     },
@@ -61,7 +61,8 @@ export default function Manifesto() {
   return (
     <section
       ref={root}
-      className="grid grid-cols-12 gap-y-16 px-[max(1.25rem,4vw)] py-[clamp(6rem,16vh,12rem)]"
+      className="halo grid grid-cols-12 gap-y-16 px-[max(1.25rem,4vw)] py-[clamp(6rem,16vh,12rem)]"
+      style={{ ['--halo-x' as string]: '82%', ['--halo-y' as string]: '38%' }}
       aria-labelledby="manifesto-title"
     >
       <div className="col-span-12 lg:col-span-7 lg:col-start-1">
@@ -71,21 +72,13 @@ export default function Manifesto() {
 
         <h2
           id="manifesto-title"
+          data-manifesto-title
           data-lang-text
-          className="display mb-10 max-w-[14ch]"
+          className="display display-gold max-w-[18ch]"
           style={{ fontSize: 'var(--text-section)' }}
         >
           {t('manifesto.title')}
         </h2>
-
-        <p
-          data-manifesto-body
-          data-lang-text
-          className="max-w-[46ch] text-[color:var(--color-paper)]/80"
-          style={{ fontSize: 'var(--text-lead)', lineHeight: 1.32 }}
-        >
-          {t('manifesto.body')}
-        </p>
       </div>
 
       <div className="col-span-12 lg:col-span-4 lg:col-start-9 lg:self-end">

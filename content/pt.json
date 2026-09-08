@@ -34,8 +34,7 @@
   },
   "manifesto": {
     "eyebrow": "Manifesto",
-    "title": "Altura não é truque",
-    "body": "Subo porque a mentira não se sustenta lá em cima. A faixa marca a pele, o ombro trava, o espacate abre no ar sem rede embaixo. Cada figura é uma decisão tomada em dois segundos, na frente de todo mundo.",
+    "title": "Especialista em faixa aérea, com anos de experiência",
     "media": {
       "alt": "Vitor Mendes nas faixas aéreas, corpo na horizontal a meia altura, braços travados acima da cabeça."
     }
@@ -43,69 +42,53 @@
   "aereo": {
     "eyebrow": "01 — Faixas",
     "title": "Um aparelho, o corpo inteiro",
-    "body": "Faixas aéreas. Força travada no ombro para subir, espacate aberto no alto, o chão como continuação do número. Trabalho em altura de até 8 m, com rig próprio ou na estrutura da casa.",
     "items": {
       "01": {
-        "caption": "Faixas — planche horizontal",
         "alt": "Vitor Mendes nas faixas aéreas, corpo na horizontal a meia altura, braços travados acima da cabeça."
       },
       "02": {
-        "caption": "Faixas — espacate suspenso",
         "alt": "Vitor Mendes suspenso pelas faixas em espacate aberto, braços estendidos, cortina vermelha ao fundo."
       },
       "03": {
-        "caption": "Faixas — penché em apoio",
         "alt": "Vitor Mendes em pé no palco, uma perna na vertical junto à faixa, tronco alinhado."
       },
       "04": {
-        "caption": "Solo — espacate em apoio de ombros",
         "alt": "Espacate horizontal em apoio de ombros no piso do picadeiro, pernas totalmente abertas."
       }
     }
   },
   "cena": {
     "eyebrow": "02 — Personagem",
-    "title": "Personagem antes do número",
-    "body": "Não entro no ar sem saber quem sobe. A serpente veio antes de qualquer figura: o jeito de rastejar, o peso na mão aberta, a cara. O aparelho é consequência do personagem — nunca o contrário.",
+    "title": "Experiência com interpretação e teatro",
     "items": {
       "01": {
-        "caption": "Serpente — agachamento com a rede",
         "alt": "Vitor Mendes como serpente, macacão amarelo e preto de pele de cobra, coroa de escamas, agachado sobre uma rede de corda branca com o braço estendido."
       },
       "02": {
-        "caption": "Serpente — retrato de capuz",
         "alt": "Retrato de perfil da serpente: capuz verde-menta de escamas, sobrancelhas verdes, rosto branco e boca verde-escura."
       },
       "03": {
-        "caption": "Serpente — figurino verde, coxia",
         "alt": "Serpente em figurino verde de corpo inteiro, braços abertos e cabeça erguida, diante de uma cortina azul-petróleo."
       },
       "04": {
-        "caption": "Serpente — abertura no picadeiro",
         "alt": "Serpente agachada de frente no picadeiro, pernas abertas e mãos no chão, luz verde ao fundo."
       },
       "05": {
-        "caption": "Serpente — extensão para trás",
         "alt": "Serpente em extensão para trás, cabeça invertida entre os braços, mãos abertas para a plateia."
       }
     }
   },
   "maquiagem": {
     "eyebrow": "03 — Maquiagem",
-    "title": "A cara vem antes",
-    "body": "Desenho a serpente no espelho, com a mão, camada por camada. Base branca, escama pintada na têmpora, boca verde. Uma hora de camarim decide o que o corpo vai poder fazer no ar.",
-    "hoverHint": "passe o cursor",
+    "title": "Especialista em maquiagem profissional",
     "items": {
       "01": {
-        "caption": "Escama na têmpora — camarim",
         "alt": "Close do rosto de Vitor Mendes no camarim: base branca, escamas verdes pintadas na têmpora, sobrancelha verde e boca verde com glitter."
       },
       "02": {
-        "caption": "Sobrancelha e boca — camarim",
         "alt": "Rosto frontal com maquiagem de serpente pronta: máscara branca, sobrancelhas verdes desenhadas, lábios verde-limão e escamas na lateral da cabeça."
       },
       "03": {
-        "caption": "Rosto pronto — antes de entrar",
         "alt": "Maquiagem finalizada em luz natural: escamas amarelo-ouro descendo pela lateral do rosto, olhos delineados em preto, boca verde em degradê."
       }
     }
@@ -120,52 +103,77 @@
       "alt": "Frame do showreel: Vitor Mendes no alto das faixas, palco escuro."
     },
     "items": {
-      "01": { "caption": "Faixas — número completo", "alt": "Frame do número de faixas aéreas." },
-      "02": { "caption": "Faixas — em festival", "alt": "Frame do número de faixas em festival." },
-      "03": { "caption": "Solo de flexibilidade", "alt": "Frame do solo de flexibilidade no chão." },
-      "04": { "caption": "Cena — personagem", "alt": "Frame de cena teatral com personagem." }
+      "01": {
+        "caption": "Faixas — número completo",
+        "alt": "Frame do número de faixas aéreas."
+      },
+      "02": {
+        "caption": "Faixas — em festival",
+        "alt": "Frame do número de faixas em festival."
+      },
+      "03": {
+        "caption": "Solo de flexibilidade",
+        "alt": "Frame do solo de flexibilidade no chão."
+      },
+      "04": {
+        "caption": "Cena — personagem",
+        "alt": "Frame de cena teatral com personagem."
+      }
     }
   },
   "ficha": {
     "eyebrow": "05 — Ficha técnica",
-    "title": "Dados de trabalho",
-    "body": "Ficha resumida para produção e curadoria. Release completo e rider técnico sob pedido.",
-    "stats": {
-      "01": { "value": 12, "label": "anos em cena" },
-      "02": { "value": 9, "label": "países" },
-      "03": { "value": 8, "label": "metros de altura" },
-      "04": { "value": 400, "label": "apresentações" }
+    "title": "Ficha técnica",
+    "media": {
+      "alt": "Retrato de Vitor Mendes."
     },
     "rows": {
-      "aparelhos": { "label": "Aparelho", "value": "Faixas aéreas (aerial straps)" },
-      "linguagens": { "label": "Linguagens", "value": "Circo contemporâneo · teatro físico · flexibilidade e contorção · criação de personagem · maquiagem artística" },
-      "base": { "label": "Base", "value": "[cidade, país] — disponível para viagem" },
-      "formacao": { "label": "Formação", "value": "[escola, ano] · [formação complementar]" },
-      "festivais": { "label": "Festivais", "value": "[festival 1] · [festival 2] · [festival 3]" },
-      "idiomas": { "label": "Idiomas", "value": "Português · espanhol · inglês" },
-      "formatos": { "label": "Formatos", "value": "Número solo (6–8 min) · intervenção · temporada · criação sob medida" },
-      "tecnica": { "label": "Técnica", "value": "Ponto de rigging mínimo [X kN] · pé-direito mínimo [X m] · rider sob pedido" }
-    },
-    "media": {
-      "alt": "Retrato de Vitor Mendes em cena, maquiagem de palco e figurino vermelho com pedrarias, cortina vermelha ao fundo."
+      "idade": {
+        "label": "Idade",
+        "value": "23 anos"
+      },
+      "altura": {
+        "label": "Altura",
+        "value": "1,60 m"
+      },
+      "experiencia": {
+        "label": "Experiência",
+        "value": "5 anos"
+      },
+      "aparelhos": {
+        "label": "Aparelhos",
+        "value": "Faixas, tecido e gota · versatilidade em outros aparelhos aéreos"
+      },
+      "criacao": {
+        "label": "Criação",
+        "value": "Criação e direção de números e atos"
+      },
+      "email": {
+        "label": "E-mail",
+        "value": "algustomendesvitor@gmail.com"
+      }
     }
   },
   "contato": {
     "eyebrow": "06 — Booking",
     "title": "Vitor Mendes",
-    "body": "Temporada, festival, evento corporativo e criação sob medida. Escreva com data, cidade e pé-direito do espaço — respondo em até 48h.",
-    "cta": "Escrever agora",
+    "cta": "Falar no WhatsApp",
     "links": {
-      "email": { "label": "E-mail", "value": "[e-mail]" },
-      "whatsapp": { "label": "WhatsApp", "value": "[telefone]" },
-      "instagram": { "label": "Instagram", "value": "[@usuario]" },
-      "vimeo": { "label": "Vídeos", "value": "[Vimeo/YouTube]" }
-    },
-    "download": "Baixar release (PDF)"
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "Chamar no WhatsApp"
+      },
+      "instagram": {
+        "label": "Instagram",
+        "value": "@vitor_mendescirco"
+      },
+      "email": {
+        "label": "E-mail",
+        "value": "algustomendesvitor@gmail.com"
+      }
+    }
   },
   "footer": {
-    "year": "© 2026 Vitor Mendes",
-    "photoCredit": "Fotos: [créditos]",
-    "siteCredit": "Site: [crédito]"
+    "year": "© 2026 Vitor Mendes"
   }
 }

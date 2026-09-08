@@ -72,7 +72,8 @@ export default function GalleryCena() {
   return (
     <section
       ref={root}
-      className="px-[max(1.25rem,4vw)] py-[clamp(5rem,14vh,11rem)]"
+      className="halo px-[max(1.25rem,4vw)] py-[clamp(5rem,14vh,11rem)]"
+      style={{ ['--halo-x' as string]: '16%', ['--halo-y' as string]: '30%', ['--halo-size' as string]: '50vw' }}
       aria-labelledby="cena-title"
     >
       <header className="mb-16 lg:sticky lg:top-[max(1.25rem,4vw)] lg:z-10 lg:mb-0 lg:float-left lg:w-[24%]">
@@ -82,14 +83,11 @@ export default function GalleryCena() {
         <h2
           id="cena-title"
           data-lang-text
-          className="display max-w-[10ch]"
+          className="display display-gold max-w-[12ch]"
           style={{ fontSize: 'var(--text-section)' }}
         >
           {t('cena.title')}
         </h2>
-        <p data-lang-text className="mt-6 max-w-[38ch] text-[color:var(--color-paper)]/70">
-          {t('cena.body')}
-        </p>
       </header>
 
       <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-12 lg:gap-x-[3vw] lg:gap-y-[10vh] lg:pt-[46vh]">
@@ -102,11 +100,6 @@ export default function GalleryCena() {
             <div data-frame className="reveal-clip">
               <MediaFrame item={item} sizes={LAYOUT[index % LAYOUT.length].sizes} />
             </div>
-            {item.captionKey && (
-              <figcaption data-lang-text className="eyebrow mt-3">
-                {t(item.captionKey)}
-              </figcaption>
-            )}
           </figure>
         ))}
       </div>

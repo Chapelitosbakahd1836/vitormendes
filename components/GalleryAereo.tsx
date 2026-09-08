@@ -95,12 +95,6 @@ export default function GalleryAereo() {
         >
           {t('aereo.title')}
         </h2>
-        <p
-          data-lang-text
-          className="mt-6 max-w-[42ch] text-[color:var(--color-paper)]/70"
-        >
-          {t('aereo.body')}
-        </p>
       </header>
 
       <div
@@ -121,11 +115,6 @@ export default function GalleryAereo() {
                 className="lg:h-full lg:w-auto"
               />
             </div>
-            {item.captionKey && (
-              <figcaption data-lang-text className="eyebrow mt-3">
-                {t(item.captionKey)}
-              </figcaption>
-            )}
           </figure>
         ))}
       </div>
